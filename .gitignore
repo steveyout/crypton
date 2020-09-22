@@ -124,6 +124,7 @@ nbproject
 .vscode
 .node_history
 dump.rdb
+.env
 
 npm-debug.log
 lib-cov

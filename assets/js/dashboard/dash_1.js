@@ -80,7 +80,7 @@ var d_2options1 = {
           right: 0,
           bottom: -40,
           left: 0
-        }, 
+        },
     },
 }
 
@@ -120,7 +120,7 @@ var d_2options2 = {
       right: 0,
       bottom: 36,
       left: 0
-    }, 
+    },
   },
   fill: {
       type:"gradient",
@@ -302,7 +302,7 @@ var options1 = {
         lines: {
             show: true
         }
-    },   
+    },
     yaxis: {
         lines: {
             show: false,
@@ -313,8 +313,8 @@ var options1 = {
       right: 0,
       bottom: 0,
       left: -10
-    }, 
-  }, 
+    },
+  },
   legend: {
     position: 'top',
     horizontalAlign: 'right',
@@ -331,7 +331,7 @@ var options1 = {
       onClick: undefined,
       offsetX: 0,
       offsetY: 0
-    },    
+    },
     itemMargin: {
       horizontal: 0,
       vertical: 20
@@ -493,7 +493,16 @@ d_2C_1.render();
     ============================
 */
 var d_2C_2 = new ApexCharts(document.querySelector("#total-orders"), d_2options2);
+var bch=new ApexCharts(document.querySelector("#total-orders2"), d_2options2);
+  var eth=new ApexCharts(document.querySelector("#total-orders3"), d_2options2);
+  var ltc=new ApexCharts(document.querySelector("#total-orders4"), d_2options2);
+
+bch.render();
+eth.render();
+ltc.render();
+
 d_2C_2.render();
+
 
 /*
     ================================

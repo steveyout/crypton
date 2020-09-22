@@ -20,7 +20,18 @@ module.exports.routes = {
   ***************************************************************************/
 
   'GET /':'HomepageController.homepage',
-  'GET /login':'LoginController.login'
+  'GET /login':'LoginController.login',
+  'GET /signup':'SignupController.signup',
+  'POST /register':'RegisterController.register',
+  'GET /dashboard':'DashboardController.dashboard',
+  'GET /logout':'LogoutController.logout',
+  'POST /signin':'SigninController.signin',
+  'POST /transactions':'TransactionsController.transactions',
+  'GET /createoffer':'CreateofferController.createoffer',
+  'GET /walletbtc':'WalletbtcController.walletbtc',
+  'GET /walletbch':'WalletbchController.walletbch',
+  'GET /walleteth':'WalletethController.walleteth',
+  'GET /walletltc':'WalletltcController.walletltc'
 
 
   /***************************************************************************

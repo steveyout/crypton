@@ -10,6 +10,13 @@
  */
 
 module.exports.bootstrap = async function() {
+  bcrypt = require('bcrypt');
+  requestCountry = require('request-country');
+  publicIp = require('public-ip');
+  iplocate = require("node-iplocate");
+  cryptoRandomString = require('crypto-random-string');
+  price = require('crypto-price');
+
 
   // By convention, this is a good place to set up fake data during development.
   //

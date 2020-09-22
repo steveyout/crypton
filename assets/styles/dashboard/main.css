@@ -15,11 +15,11 @@ body {
   color: #888ea8;
   height: 100%;
   font-size: 0.875rem;
-  background: #fafafa;
+  background: #f1f2f3;
   overflow-x: hidden;
   overflow-y: auto;
   letter-spacing: 0.0312rem;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'Nunito', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #3b3f5c; }
@@ -1725,13 +1725,13 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
   padding: 16px 12px;
   color: #fff; }
 
-/*
+/*  
     ==========================
-        Background Colors
+        Background Colors  
     ==========================
 */
-/*
-    Default
+/*  
+    Default  
 */
 .bg-primary {
   background-color: #1b55e2 !important;
@@ -1768,8 +1768,8 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
   border-color: #3b3f5c;
   color: #fff; }
 
-/*
-    Light Background
+/*  
+    Light Background  
 */
 .bg-light-primary {
   background-color: #c2d5ff !important;
@@ -1806,7 +1806,7 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
   border-color: #acb0c3;
   color: #fff; }
 
-/*
+/*  
     Progress Bar
 */
 .progress {
